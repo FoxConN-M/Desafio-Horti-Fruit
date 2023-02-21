@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+html{
+  background-color: #F66000;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header div{
+  display: block;
+  width: 600px;
+  height: 155px;
+  padding-left: 8vh;
+  padding-top: 82px;
+  margin-top: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header div h1{
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
   color: white;
+  font-size: 80px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+header div h3{
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+  align-items: center;
+  padding-left: 26vh;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subtitulo{
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  color: white;
+  z-index: 1;
+  position: relative;
+  left: 8vh;
+  top: 20vh;
+}
+
+section{
+  display: flex;
+  width: 100%;
+}
+
+.Frutas{
+  margin-left: 8vh;
+  padding-top: 20vh;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  width: 60%;
+  height: 60%;
+}
+
+figure{
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  display: flex;
+
+}
+
+.Carrinho img{
+  width: 100%;
 }

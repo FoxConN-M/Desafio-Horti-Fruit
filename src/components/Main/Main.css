@@ -1,0 +1,38 @@
+.titulo{
+    display: block;
+    width: 600px;
+    height: 155px;
+    padding-left: 101px;
+    padding-top: 82px;
+    margin-top: 0px;
+}
+
+main h1{
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 80px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+main h3{
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    align-items: center;
+    padding-left: 190px;
+    color: white;
+    margin-top: 0px;
+    padding-bottom: 120px;
+    margin-bottom: 0px;
+}
+section h2{
+    margin-left: 113px;
+    margin-top: 80px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    color: white;
+}
